@@ -1,18 +1,21 @@
 * {
     font-family: Verdana;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3rem;
+    padding: 1rem 4rem;
     background-color: #FFFFFF;
 }
 .nav__logo {
     text-decoration: none;
     color: #335576;
     font-weight: bold;
+    font-size: 1rem;
 }
 .nav__menu {
     display: inline-flex;
@@ -23,4 +26,15 @@
     text-decoration: none;
     color:black;
     padding-bottom: 0.5rem;
+}
+.nav__menu-item--active {
+    border-bottom: 3px solid #DB7A4E;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FEFAF5;
+}
+.footer__title {
+    color: #335576;
 }
