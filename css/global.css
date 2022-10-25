@@ -1,0 +1,26 @@
+* {
+    font-family: Verdana;
+    box-sizing: border-box;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    background-color: #FFFFFF;
+}
+.nav__logo {
+    text-decoration: none;
+    color: #335576;
+    font-weight: bold;
+}
+.nav__menu {
+    display: inline-flex;
+    list-style: none;
+    gap: 1rem;   
+}
+.nav__menu-item {
+    text-decoration: none;
+    color:black;
+    padding-bottom: 0.5rem;
+}

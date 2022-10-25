@@ -1,0 +1,24 @@
+.nav__menu-item--active {
+    border-bottom: 3px solid #DB7A4E;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FEFAF5;
+}
+.hero__content-title {
+    color: #335576;
+    font-size: 2.5rem;
+}
+p {
+    color: #335576;
+    padding: 1rem 0;
+}
+button {
+    background-color: #DB7A4E;
+    color: #FEFAF5;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+}
