@@ -32,9 +32,34 @@
 }
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #FEFAF5;
+    padding: 3rem 0;
+    gap: 8rem;
 }
-.footer__title {
+.footer__title, .footer__text {
     color: #335576;
+    font-size: 1rem;
+}
+.footer__text {
+    font-size: 0.5rem;
+}
+.footer__subtitle {
+    color: #DB7A4E;
+    font-size: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.container {
+    display: inline-flex;
+    gap: 2rem;
+    align-items: center;
+}
+.footer__logo {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}
+.container__logo {
+    padding-top: 1.75rem;
+    padding-right: 2.5rem;
 }
