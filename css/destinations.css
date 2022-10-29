@@ -1,38 +1,51 @@
 .destination  {
-    background-image: url(../assets/images/hawaii.jpg);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    background-position-y: 53%;
+}
+.destination--one {
+    background-image: url(../assets/images/hawaii.jpg);
+}
+.destination--two {
+    background-image: url(../assets/images/iceland.jpg);
+}
+.destination--three {
+    background-image: url(../assets/images/greece.jpg);
+}
+.destination__title {
+    color: white;
+    font-size: 4rem;
+    padding: 3rem 3rem 3rem 4rem;
 }
 .card {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    padding-bottom: 8rem;
 }
 .card-item {
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    width: 20rem;
-    height: 30rem;
-    font-size: 1.5rem;
+    width: 18%;
+    height: 21.5rem;
+    font-size: 1rem;
     background-color: white;
     padding: 0 2rem;
 }
 .card__title {
     border-bottom: 4px solid black;
     text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin: 0.75rem 0 1.5rem 0;
 }
 .card__menu {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     list-style: none;
     text-align: center;
 }
 .card__menu-item {
     background-color: #FEFAF5;
-    padding: 1rem 0;
+    padding: 0.75rem 0;
 }

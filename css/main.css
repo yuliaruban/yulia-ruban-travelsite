@@ -53,6 +53,7 @@
     background-position: center;
     width: 17%;
     height: 20rem;
+    text-decoration: none;
 }
 .card-item:nth-child(1) {
     background-image: url(../assets/images/hawaii.jpg);
