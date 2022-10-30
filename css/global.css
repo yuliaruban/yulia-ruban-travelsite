@@ -50,14 +50,14 @@ main {
     justify-content: center;
     background-color: #FEFAF5;
     padding: 3rem 0;
-    gap: 8rem;
+    gap: 5rem;
 }
 .footer__title, .footer__text {
     color: #335576;
     font-size: 1.25rem;
 }
 .footer__text {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
 }
 .footer__subtitle {
     color: #DB7A4E;
@@ -67,15 +67,14 @@ main {
 }
 .footer__container--hours {
     display: inline-flex;
-    gap: 2rem;
+    gap: 1.5rem;
     align-items: center;
 }
 .footer__container--logo {
     display: inline-flex;
     gap: 1.5rem;
     align-items: center;
-    padding-top: 1.75rem;
-    padding-right: 1.75rem;
+    padding: 2rem 2rem 0 0;
 }
 .footer__logo {
     max-width: 1.5rem;

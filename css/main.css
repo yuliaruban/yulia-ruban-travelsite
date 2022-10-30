@@ -5,15 +5,16 @@
     padding: 3rem;
 }
 .hero__content {
-    padding: 2rem 1.5rem;
+    padding: 3rem 1.5rem;
 }
 .hero__title {
     color: #335576;
-    font-size: 2rem;
+    font-size: 2.25rem;
 }
 .hero__text {
     color: #335576;
     padding: 2rem 0;
+    font-size: 0.9rem;
 }
 .hero__button {
     background-color: #DB7A4E;
@@ -24,11 +25,11 @@
     text-decoration: none;
 }
 .hero__image {
-    text-align: center;
+    text-align: end;
 }
 .hero__img {
     width: 75%;
-    padding-left: 2rem;
+    padding-right: 1.5rem;
 }
 .recommendations {
     margin: 0 1rem 4rem 1rem;
