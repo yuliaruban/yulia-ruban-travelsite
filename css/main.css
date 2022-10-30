@@ -13,7 +13,7 @@
 }
 .hero__text {
     color: #335576;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 .hero__button {
     background-color: #DB7A4E;
@@ -21,6 +21,7 @@
     border: none;
     border-radius: 2rem;
     padding: 0.5rem 2rem;
+    text-decoration: none;
 }
 .hero__image {
     text-align: center;
@@ -54,6 +55,15 @@
     width: 17%;
     height: 20rem;
     text-decoration: none;
+}
+.card-item
+.card-item:after,
+.card-item:before
+ {
+  transition: all 0.3s ease;
+}
+.card-item:hover {
+    border: 3px solid #DB7A4E;
 }
 .card-item:nth-child(1) {
     background-image: url(../assets/images/hawaii.jpg);
